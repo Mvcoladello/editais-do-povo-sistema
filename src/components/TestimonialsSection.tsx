@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
                 <div>
                   <h3 className="font-semibold text-lg text-blue-600">{testimonial.name}</h3>
                   <p className="text-sm text-gray-600 mb-2">{testimonial.area}</p>
-                  <p className="text-gray-700">"{testimonial.comment}"</p>
+                    <p className="text-gray-700">&quot;{testimonial.comment}&quot;</p>
                 </div>
               </CardContent>
             </Card>
